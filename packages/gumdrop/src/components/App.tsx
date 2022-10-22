@@ -18,10 +18,10 @@ export const App = () => {
     palette: {
       mode: 'dark',
       primary: {
-        main: '#d0bdf4',
+        main: '#fa0202',
       },
       secondary: {
-        main: '#8458B3',
+        main: '#220101',
       },
     },
   });

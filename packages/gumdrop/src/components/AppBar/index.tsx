@@ -41,7 +41,7 @@ export function useWindowDimensions() {
 export const LogoLink = () => {
   return (
     <Link to={`/`}>
-      <p className={'app-logo'}>GUMDROP</p>
+      <p className={'app-logo'}>OTOM8</p>
     </Link>
   );
 };

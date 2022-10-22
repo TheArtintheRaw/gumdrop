@@ -11,27 +11,21 @@ export const About = () => {
   const summary = (
     <Stack spacing={1}>
       <div>
-        The Gumdrop program leverages the Solana blockchain and merkle trees to
-        facilitate airdrops to a large number of whitelisted users at a low cost
-        to creators.
+        Ghostlife 2099 - Take the your assessment at <a href="https://ghostlifeclub.com/">https://ghostlifeclub.com</a>
+        to get started with the designation and redemtion of your OTOM8 ID. 
       </div>
 
       <div>
-        Various ecosystem projects want to ensure early followers and supporters
-        gain access to project assets whether they be tokens, NFTs, or others.
-        Simultaneously, capitalization of these assets should not incur undue
-        costs or operational overhead to the creators. There are several ways to
-        achieve such a setup and Gumdrop offers one that integrates with
-        existing Solana and Metaplex ecosystem programs.
+        Once you complete your OTOM8 Identification Assessment you will be
+         recieve a code to claim your ID shortly after. Make sure you join
+         the <a href="https://discord.gg/ghostlife">discord</a>.
       </div>
 
       <div>
-        Gumdrop solves this efficient-airdrop issue by utilizing a
-        space-efficient hash structure (the merkle tree) such that an on-chain
-        program can validate whether the user is part of a whitelist. This uses
-        a pull-based paradigm to shift the burden from creators, sending
-        airdrops or pre-minting NFTs, to recipients, that can choose to claim
-        their portion or leave it for general adoption.
+        The usecase of the OTOM8 ID will grant you access to staking rewards,
+         discounts of apparel and future NFT collections, gated content - such
+         as limited edition runs of apparel and future NFT collections only available
+         to holders.
       </div>
 
       <div>
@@ -56,6 +50,8 @@ export const About = () => {
         whitelisted users a drop reclamation link by building the tree with
         off-chain handles (e.g email, discord, etc) and allowing the user to
         redeem into any wallet.
+        Below is an example of how it all works. as well as links to the docs
+        for a more indepth explaination.
       </div>
     </Stack>
   );
