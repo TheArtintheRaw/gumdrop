@@ -101,22 +101,22 @@ export const About = () => {
     </Stack>
   );
 
-  const close = (
-    <Stack spacing={1}>
-      <a>CLOSING</a>
+  // const close = (
+  //   <Stack spacing={1}>
+  //     <a>CLOSING</a>
 
-      <div>
-        Closing the Gumdrop cleans up the on-chain state and allows creators to
-        recycle any lamports held for rent-exemption after the airdrop is
-        complete.
-      </div>
+  //     <div>
+  //       Closing the Gumdrop cleans up the on-chain state and allows creators to
+  //       recycle any lamports held for rent-exemption after the airdrop is
+  //       complete.
+  //     </div>
 
-      <div>
-        When closing a Candy Machine-integrated distributor, update authority
-        will be transferred back to the wallet owner.
-      </div>
-    </Stack>
-  );
+  //     <div>
+  //       When closing a Candy Machine-integrated distributor, update authority
+  //       will be transferred back to the wallet owner.
+  //     </div>
+  //   </Stack>
+  // );
 
   const steps = [
     { name: 'summary', inner: summary },
